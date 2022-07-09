@@ -129,18 +129,15 @@ body {
   margin: 0 auto 206px;
 }
 
-
-
- /* About */
+/* About */
 .about {
   max-width: 1200px;
   height: 1129px;
   background-color: #1d1d1d;
   padding-top: 128px;
   padding-bottom: 271px;
-  background: url(../img/buildings__white.png) center bottom repeat-x,
-              url(../img/buildings__black.png) center bottom repeat-x,
-              #1d1d1d;
+  background: url(../img/buildings__white.png) center 101% repeat-x,
+    url(../img/buildings__black.png) center 101% repeat-x, #1d1d1d;
   /* background-size: contain, contain; */
   margin: auto;
 }
@@ -177,4 +174,147 @@ body {
   font-weight: 300;
   letter-spacing: 0.02em;
   color: #b7b7b7;
+}
+
+/* Команда */
+
+.team {
+  height: 745px;
+}
+
+.block__title {
+  font-family: "HelveticaNeueLTProLt", sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #1d1e1f;
+  margin: 0;
+  padding-top: 138px;
+  margin-bottom: 13px;
+  text-align: center;
+}
+
+.block__text {
+  font-family: "Merriweather-LightItalic", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-style: italic;
+  letter-spacing: 0.02em;
+  color: #898888;
+  margin: 0;
+  text-align: center;
+}
+
+.team__inner {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 131px;
+}
+
+.team__item {
+  text-align: center;
+}
+
+.team__item-img {
+  margin-bottom: 29px;
+}
+
+.team__item-title {
+  font-family: "HelveticaNeueLTProLt", sans-serif;
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #464646;
+  margin: auto;
+  margin-bottom: 7px;
+}
+
+.team__item-text {
+  font-family: "HelveticaNeueLTProLt", sans-serif;
+  font-size: 13px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #b3b3b3;
+  margin: auto;
+  margin-bottom: 21px;
+}
+
+.team__icon-box a {
+  color: #e4e4e4;
+  font-size: 20px;
+  transition: 0.2s;
+}
+
+.team__icon-box a:hover {
+  color: #bdbdbd;
+}
+
+/* Provide */
+.provide {
+  background-color: #181818;
+  max-width: 1200px;
+  margin: auto;
+  padding-bottom: 155px;
+}
+
+.inverse .block__title {
+  font-family: "HelveticaNeueLTProLt", sans-serif;
+  color: #ffffff;
+  padding-top: 176px;
+  margin-bottom: 5px;
+}
+.inverse .block__text {
+  font-family: "Merriweather-LightItalic", sans-serif;
+  color: #777777;
+}
+.provade__inner {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 138px;
+}
+.provade__item  {
+  text-align: center;
+  max-width: 335px;
+}
+
+.provade__item i {
+  color: #ffffff;
+  font-size: 63px;
+  width: 172px;
+  height: 172px;
+  border: 5px solid #ffffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 43px; 
+}
+
+.provade__item-title {
+  font-family: "HelveticaNeueLTProLt", sans-serif;
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  margin: 0;
+  margin-bottom: 31px;
+}
+.provade__item-text {
+  font-family: "HelveticaNeueLTProLt", sans-serif;
+  color: #383838;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  margin: 0;
+}
+.icon-heart {
+  
+}
+.icon-upload-cloud {
+  
+}
+.icon-chart-line {
+  
 }
